@@ -3,7 +3,6 @@
 # Həmin qısaltmalar böyük hərflə yazılan ingilis şriftləri olmalı,
 # Daha sonrakı 7 character isə ancaq rəqəmlərdən ibarət olmalıdır.
 id = input('ID-nizi daxil edin:')
-print(id[:3])
 if len(id) == 10 :
     if id.isascii():
         if id[:3].isupper():
