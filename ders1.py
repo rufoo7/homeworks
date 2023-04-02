@@ -11,3 +11,10 @@ elif n<500000:
     print("sizin yekun borcunuz", n*1.02)
 elif n>500000:
     print("kredit verilmir")
+    
+    
+    n=int(input("ededi daxil edin:"))
+if n%3==0 and n%7==0 and n%8==0:
+    print("her ucune de bolunur")
+else:
+    print("bolunmur")
