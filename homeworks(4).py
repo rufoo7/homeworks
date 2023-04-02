@@ -49,17 +49,3 @@
 #     if j < min:
 #         min = j
 # print(sum(numbers)-max-min)
-
-# Kvadrat ədədlərdən ibarət nested listin (list içində list) içərisindəki ədədləri yoxlayıb, 
-# verilmiş digər listin içindəki 
-# ədədlərin kvadratı olanları başqa bir listdə yığın. Nümunə:
-import math
-number_groups = [[625, 36, 576], [64, 488, 49], [689, 484, 121], [81, 529, 144]]
-roots = [6, -8, 12, 23, -24, 11]
-new_lst = []
-for i in number_groups:
-    for j in i:
-        if math.sqrt(j):
-            if j in roots:
-                new_lst.append(j)
-print(new_lst)
