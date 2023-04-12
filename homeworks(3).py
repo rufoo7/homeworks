@@ -111,11 +111,3 @@
 #     if i<0:
 #         result[1] += i
 # print(result)
-        
-
-
-
-
-
-
-

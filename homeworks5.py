@@ -64,3 +64,29 @@
 # print(user)
 # 5. İstifadəçinin sifarişlərinin başına ball əlavə edin
 # 6. Sonuna headphones əlavə edin
+
+# Istifadəçi sizə "5 salam" şəklində solda ədəd, ortada, boşluq, sağda isə bir input verəcək. Buna əsasən sağdakı yazını istifadəçinin qeyd etdiyi ədəd qədər
+# yazıb, istifadəçiyə qatarın. 
+# Örnək yuxaridakı inputun outputu salam salam salam salam salam
+
+
+# [2384, 12385, 13226, 653, 12362423] 
+# list içərisindəki ədədlərin key
+# olduğu və value-ların həmin ədədlərin 
+# rəqəm sayı olduğu bir dictionary hazırlayın
+
+
+# 100-dən müsbət 100-ə qədər ədədlər arasında 7-yə bölünən ədədlərin 
+# 3-ə vurulmasından ibarət bir list qurun. Bunun üçün range və list comprehensions istifadə edin.
+# lst = [i*3 for i in range(-100,100) if i%7==0]
+# print(lst)
+
+qiymetler = {'Nescafe 500 gr': 8, 'Tess 350 gr': 4.5, 'Jacobs 500 gr': 9.5, 'Cappucino J': 6.4}
+mehsullar = ['Nescafe 500 gr', 'Jacobs 500 gr']
+vergi_faizi = 0.08
+total_price = 0
+for k,v in qiymetler.items():
+    if k in mehsullar:
+        total_price += v
+vergi = total_price+total_price*vergi_faizi
+print(vergi)
