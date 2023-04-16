@@ -5,9 +5,9 @@
 # result = {n:('tek' if n%2 else 'cut') for n in numbers }
 # print(result)
 
-# cumle = "sehvelerden en yaxsi sehife bu sehvedir"
-# l = ["sehve", "sehife"]
-# result = cumle.replace(*l)
+cumle = "sehvelerden en yaxsi sehife bu sehvedir"
+l = ["sehve", "sehife"]
+result = cumle.replace(*l)
 # print(result)
 
 userData = [
@@ -23,7 +23,7 @@ userData = [
 ]
 # Hormetli A. E. Serifov, sizin 5326-6644********** nomreli   kredit kartiniza 341.35AZN odenis edildi.  
 # Umumi 12,543AZN teskil eden borcunuzdan 2.72% borc silinmisdir!
-# text = 'Hormetli {first_name:.1}. {father_name:.1}. {last_name}, sizin {card_number:*<19.9} nomreli   \
-# kredit kartiniza {paid:.2f}AZN odenis edildi. Umumi {debt:,}AZN teskil eden borcunuzdan {paid_percent:.2%} borc silinmisdir!'.format_map(userData[0])
+text = 'Hormetli {first_name:.1}. {father_name:.1}. {last_name}, sizin {card_number:*<19.9} nomreli   \
+kredit kartiniza {paid:.2f}AZN odenis edildi. Umumi {debt:,}AZN teskil eden borcunuzdan {paid_percent:.2%} borc silinmisdir!'.format_map(userData[0])
 
-# print(text)
+print(text)
