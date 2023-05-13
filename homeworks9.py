@@ -25,24 +25,22 @@
 # say = len(number)
 # onluq_eded = 0
 # for i in number:
-#     if say >= 0:
-#         onluq_eded += (int(system)**(say-1)) * int(i) 
-#         say -= 1
+#     onluq_eded += (int(system)**(say-1)) * int(i) 
+#     say -= 1
 # print(onluq_eded)
 
 
 # isascii() metodundan istifadə etmədən hər hansı bir stringin isascii olduğunu yoxlayan kod yazın.
-sentence = input('Cumleni daxil edin: ')
-f = False
-for i in sentence:
-    if ord(i) <= 128:
-        f = True
-    else:
-        f = False
-if f:
-    print('ASCII\'dir')
-elif f == False:
-    print('Deyil')
+# sentence = input('Cumleni daxil edin: ')
+# f = True
+# for i in sentence:
+#     if ord(i) >= 128:
+#         f = False
+#         break
+# if f == False:
+#     print('ASCII\'dir')
+# else:
+#     print('Deyil')
 
 
 
