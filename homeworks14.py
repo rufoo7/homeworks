@@ -47,11 +47,11 @@ sinifler = {
 '3. Amfibialar ilə cücülərin ortaq cəhətlərini göstərən kod yazın'
 # print(amfibialar.intersection(cuculer))
 '4. Balıqlar ilə amfibiaların fərqli cəhətlərini göstərən kod yazın'
-# print(baliqlar.symmetric_difference(amfibialar))
+# print(baliqlar.difference(amfibialar))
 '5. Balıqlar ilə heç bir ortaq cəhətə sahib olmayan sinifi tapan kod yazın'
 # f = False
-# for sinif in sinifler:
-#     if baliqlar.intersection(sinif) == False:
+# for sinif,s in sinifler.items():
+#     if baliqlar.intersection(s) == False:
 #         f == True 
 # if f:
 #     print(sinif)
@@ -82,8 +82,3 @@ for sinif,s in sinifler.items():
             sinif_count += 1
         d[sinif] = sinif_count
 print(d)
-# max = 0
-# for k,v in d.items():
-#     if v > max:
-#         max = v
-#         print('Bu heyvan {} sinifine aid ola biler'.format(k))

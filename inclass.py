@@ -283,7 +283,3 @@
 # b = {6, 5, 15, 7, 11, 10, 9, 8}
 # x = [6, 25, 1]
 # print(a.intersection(b))
-
-d = {'baliqlar' : 2, 'cuculer' : 5}
-max = (y, lambda x,y: d.items())
-print(tuple(max))

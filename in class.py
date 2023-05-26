@@ -28,4 +28,9 @@ Azərbaycan şriftləri ingilis şriftləri ilə
 #     'ş': 's',
 # }
 
-    
+# def count_palindromes(a, b):
+#     start = int(a) + 1 if a % 1 > 0 else int(a)
+#     end = int(b)
+#     polindromes = [num for num in range(start, end+1) if str(num) == str(num)[::-1]]
+#     return len(polindromes)
+# print(count_palindromes(2.2, 2.9))
